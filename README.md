@@ -17,4 +17,5 @@ Counter-clockwise is price decrease.
 Green dots are price up for the day.
 Red dots are price down for the day.
 
+
 ![stock-api](https://user-images.githubusercontent.com/89032071/166616575-2ece129b-2617-4fda-bed5-14b2468b8c8b.png)
