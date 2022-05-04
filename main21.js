@@ -33,11 +33,6 @@ alpha.data.daily("amzn", "compact").then(function (data) {
     var draw = function () {
         var i;
         var c = getId("can");
-        // y = c.clientHeight / 2 + 2000;
-        // x = c.clientWidth / 2 + 2000;
-        // y = c.clientHeight / 2;
-        // x = c.clientWidth / 2;
-        // console.log(c.clientHeight/2)
         y = getId("can").clientHeight / .775;
         x = getId("can").clientWidth / .775;
         var ctx = c.getContext("2d");
