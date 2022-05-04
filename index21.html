@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale="initial-scale=1.1">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>index 21 main 21</title>
+        <style>
+
+            body {
+                text-align: center;
+                height: auto;
+                width: 4000px;
+            }
+
+            canvas {
+                /* margin-left: auto;
+                margin-right: auto; */
+                position: relative;
+                display: block;
+                border: 2px black solid;
+            }
+
+            header {
+                background-color: lightblue;
+                margin: auto;
+                min-height: 50px;
+                border-radius: 7px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>We just want the Reverses</h1>
+        </header>
+        <nav>
+            <!-- <ul>
+                <li>Try the gann spiral</li>
+            </ul> -->
+        </nav>
+        <section id="container">
+            <canvas id="can" title="test" dragable="true" width="3500" height="3500"></canvas>
+        </section>
+        <footer></footer>
+        <script src="./node_modules/alphavantage/dist/bundle.js"></script>
+        <script type="application/javascript">
+          /**
+           * Init Alpha Vantage with your API key.
+           *
+           * @param {String} key
+           *   Your Alpha Vantage API key.
+           */
+          const alpha = alphavantage({ key: '3UDP4OWA1UVM9M84' });
+        </script>
+
+        <script src="main21.js"></script>
+    </body>
+</html>
