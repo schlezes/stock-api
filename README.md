@@ -16,19 +16,46 @@ With that, attached below is an example of that calculation.
 ![unit-price](https://user-images.githubusercontent.com/89032071/166734561-f43e82d6-d76d-43a2-982c-3749f90e597b.png)
 
 
-This second image is a screenshot render of prices plotted upon the spiral as downloaded from the a djia api, last 100 days of trade.
+This second image is a screenshot render of prices plotted upon the spiral as downloaded from the DJIA API, last 100 days of trade.
 
-I selected the price range between $3000 and $3100 for purpose of simplifiying the visulization of price movement.
+I selected the price range between $3000 and $3100 for the purpose of simplifying the visualization of price movement.
 
 The stock has been trading in the +/- $3000 range during the last 100 days.
 
-Green dots are price up for the day.
+Green dots are price up for the day, from the day before.
 
-Red dots are price down for the day.
+Red dots are price down for the day, from the day before.
 
-Clockwise rotation is price increase. Blue pie indicates price increased for the day, usually from a red dot.
+All dots are the price close for the day.
 
-Counter-clockwise is price decrease.  Red pie indicates a price decrease for the day, usually from a green dot.
+Clockwise rotation is price increase. A blue pie indicates price increased for the day, usually from a red dot.
+
+Counter-clockwise is price decrease.   A red pie indicates a price decrease for the day, usually from a green dot.
 
 
 ![stock-api](https://user-images.githubusercontent.com/89032071/166616575-2ece129b-2617-4fda-bed5-14b2468b8c8b.png)
+
+
+My idea was to visualize differently some sort of indicator to substantiate some Gann definitions of support or resistance angles as the stock price moved along the spiral, forward or backward.
+
+For example, I would expect a "bunching" of dots at a location of resistance or support.
+
+or,
+
+For example. I would expect a "bunching" of dots at a location where time squared = price.
+
+In both cases, maybe an instance of a signal to reversal.
+
+I began this project in 2020 as a chance to present a paper at Data Con LA.
+
+My idea for big data was the extraction of stock price from the DJIA API and use-it for some useful purpose.
+
+I was not selected for the presentation; however, I was satisfied with the code that evolved.
+
+Straight vanilla JavaScript, CSS and HTML.
+
+
+
+
+
+
