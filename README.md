@@ -14,7 +14,7 @@ With that, attached below is an example of that calculation.
 
 Clockwise rotation is price increase. Blue pie indicates price increased for the day, usually from a red dot.
 
-Counter-clockwise is price decrease.  Red pie indicates a price decrease for the day, usually from a red dot.
+Counter-clockwise is price decrease.  Red pie indicates a price decrease for the day, usually from a green dot.
 
 Green dots are price up for the day.
 
