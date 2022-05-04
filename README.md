@@ -54,8 +54,16 @@ I was not selected for the presentation; however, I was satisfied with the code 
 
 Straight vanilla JavaScript, CSS and HTML.
 
+At this time, there could be some revisions to this project to make-it more useful.
 
+Until then,
 
+I am posting the code, except for my key.
 
+You will have to get your own key from Alpha Advantage.
+
+Thanks,
+
+Vince Schlezes
 
 
